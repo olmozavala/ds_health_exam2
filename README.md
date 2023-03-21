@@ -4,38 +4,38 @@ The objective of this exam is to evaluate our current learning in the following 
 *Image filters and resampling of medical image formats, basic concepts of supervised machine learning,*
 *neural networks and basics of Convolutional Layers.*
 
-## Question 1 (Image filters and resampling 6 Pts)
+## Question 1 (Image filters and resampling 10 Pts)
 Use ITK to resample `data/cor.mha` into isotropic voxels of size 0.5 'spacing' units. 
 
 What are the dimensions of the resampled image? 
 
-## Question 2 (Supervised machine learning 10 Pts)
+## Question 2 (Supervised machine learning 12 Pts)
 For each of the models  ([Model 1](Model_1.ipynb) and [Model 2](Model_2.ipynb) answer the following questions:
 
 1. What is the model architecture?
 2. What is the loss function?
 3. Is the last model  in the provided training overfitting or underfitting? Why?
-5. Does the last model have high bias or high variance? Why?
-6. At which epoch would you select your model in the provided training?
-7. What suggestions would you give to improve each model (if any)?
+4. Does the last model have high bias or high variance? Why?
+5. At which epoch would you select your model in the provided training?
+6. What suggestions would you give to improve each model (if any)?
 
-## Question 3 (Neural networks and data exploration 12 Pts)
+## Question 3 (Neural networks and data exploration 13 Pts)
 Considering the data from FILE `data/diabetes.csv` containing  the publicly available Pima Indians Diabetes 
 dataset from the UCI Machine Learning Repository, design a neural network that predicts the onset of diabetes.
 
 Answer the following questions about the dataset and your proposed solution:
 
-1. Which information is available in the dataset?
-2. How many patients are in the dataset?
-3. What is the percentage of patients with diabetes?
-4. What is the range of values for each feature (min and max)?
-5. How you will preprocess the data?
-6. What architecture will you use for the neural network? (Provide information like the # of layers, # of neurons per layer, 
-activation functions, etc. explain your choices)
-7. What will be a suitable loss function?
-8. How would you train your model? (Provide information like the # of epochs, batch size, optimizer, etc. explain your choices)
+1. (1) Which information is available in the dataset?
+2. (1) How many patients are in the dataset?
+3. (2) What is the percentage of patients with diabetes?
+4. (2) What is the range of values for each feature (min and max)?
+5. (2) How you will preprocess the data?
+6. (2) What architecture will you use for the neural network? (Provide information like the # of layers, # of neurons per layer, 
+     activation functions, etc. explain your choices)
+7. (1) What will be a suitable loss function?
+8. (2) How would you train your model? (Provide information like the # of epochs, batch size, optimizer, etc. explain your choices)
 
-## Question 4 (CNNs 6 Pts)
+## Question 4 (CNNs 10 Pts)
 Assume you have the image bellow as input and a 3x3 convolutional filter with all 1's. Please answer the following questions :
 
 ![](imgs/cnn.png)
