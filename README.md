@@ -6,10 +6,11 @@ The objective of this exam is to evaluate our current learning in the following 
 
 ## Question 1 (Image filters and resampling 5 Pts)
 Use ITK to resample `data/cor.mha` into isotropic voxels of size 0.5 'spacing' units. 
-What are the dimensions of the resampled image? (Provide the dimensions in the format: `width x height x depth`)
+
+What are the dimensions of the resampled image? 
 
 ## Question 2 (Supervised machine learning 10 Pts)
-For each of the models  (*Model1* and Model2) answer the following questions:
+For each of the models  ([Model 1](Model_1.ipynb) and [Model 2](Model_2.ipynb) answer the following questions:
 
 1. What is the model architecture?
 2. What is the loss function?
