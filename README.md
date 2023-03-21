@@ -51,4 +51,4 @@ Assume you have the image bellow as input and a 3x3 convolutional filter with al
 ![](imgs/cnn2.png)
 
 ## Question 5 (Extra 10 Pts)
-Implement the proposed architecture in Question 3 and train it. Evaluate the model and report the results.
+Implement the proposed architecture in Question 3 and train it. Evaluate the model and discuss the results.
